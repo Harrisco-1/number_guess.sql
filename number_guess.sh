@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script allows users to guess a random number between 1 and 1000.
+# It tracks user game history and best scores in a PostgreSQL database.
 # PSQL variable for database queries
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
